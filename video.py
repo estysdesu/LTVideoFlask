@@ -9,7 +9,7 @@ videoText = (TextClip("5432", fontsize=150, color="white", stroke_width=100)
         .set_duration(videoOrig.duration)
         )
 
-videoText2 = (TextClip("LegalTechnicality.com", fontsize=150, color="white", stroke_width=200)
+videoText2 = (TextClip("LegalTechnicality.com", fontsize=100, color="white", stroke_width=500)
         .set_pos(("left", "bottom"))
         .margin(left=50, bottom=50, opacity=50)
         .set_duration(videoOrig.duration)
