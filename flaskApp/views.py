@@ -3,7 +3,7 @@ from werkzeug import secure_filename
 import os
 
 from . import legalTechFlask
-import videoProcessing
+# import videoProcessing
 
 # get home dir and assign tmp folder; create if not exists
 usrHome = os.path.expanduser("~")

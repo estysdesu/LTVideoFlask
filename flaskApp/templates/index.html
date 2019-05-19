@@ -4,16 +4,31 @@
 
 <section class="section">
 
-    <div class="container is-full-height">
-        <form action="{{ url_for("upload_file") }}" method="post" enctype="multipart/form-data">
-            <input type="file" name="ltVideo"/>
-            <input type="submit"/>
+    <div class="container is-centered">
+        <form action="{{ url_for("upload_file") }}" method="post" enctype="multipart/form-data" class="is-centered">
+ 
+
+            <span class="file has-name formButton">
+                <label class="file-label">
+                  <input class="file-input" type="file" name="ltVideo" id="fileButton" class="hidden">
+                  <span class="file-cta">
+                    <span class="file-icon">
+                      <i class="fas fa-upload"></i>
+                    </span>
+                  </span>
+                  <span class="file-name" id="filename">Choose a file...</span>
+                </label>
+              </span>
+            
+            <span class="submit formButton">
+                <label for="submitButton" class="button">
+                    <input type="submit" id="submitButton" class="hidden"/>
+                    <span>Submit</span>
+                </label>
+              </span>
+ 
         </form> 
-
-
-        <!-- <button class="button is-large has-text-centered">Here's my button!</button> -->
     </div>
-
 </section>
 
 {% endblock bodyContent %}
