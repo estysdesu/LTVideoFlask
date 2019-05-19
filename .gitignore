@@ -1,9 +1,9 @@
 *.mp4
 *.mp3
 *.DS_Store
-__pycache__/
+*/__pycache__/
 *.pyc
-.vscode/
-.env
-venv/
-workersAndProxy/
+*/.vscode/
+*/.env
+*/venv/
+*/workersAndProxy/
