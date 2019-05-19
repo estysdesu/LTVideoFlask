@@ -11,6 +11,7 @@ defusedxml==0.6.0
 entrypoints==0.3
 flake8==3.7.7
 Flask==1.0.2
+Flask-DotEnv==0.1.2
 Flask-FlatPages==0.7.1
 Frozen-Flask==0.15
 idna==2.8
@@ -61,6 +62,7 @@ Pygments==2.4.0
 pyparsing==2.4.0
 pyrsistent==0.15.2
 python-dateutil==2.8.0
+python-dotenv==0.10.2
 python-slugify==3.0.2
 pytz==2019.1
 PyYAML==5.1

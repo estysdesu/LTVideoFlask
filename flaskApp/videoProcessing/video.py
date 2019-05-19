@@ -47,7 +47,7 @@ for q in range(len(ar)):
                  .crossfadeout(0.5)
                  )
 
-    watermark = (ImageClip("watermark.png")
+    watermark = (ImageClip(r"watermark.png")
                  .set_position(("left", "bottom"))
                  .margin(left=25, bottom=25, opacity=0)
                  .set_duration(videoOrig.duration)

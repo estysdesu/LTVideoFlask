@@ -1,4 +1,5 @@
 from flask import Flask
-from flaskApp import FlaskApp
+from flaskApp import legalTechFlask
 
-mySiteApp.run()
+if __name__ == "__main__":
+    legalTechFlask.run()
