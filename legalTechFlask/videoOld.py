@@ -25,10 +25,11 @@ def segmentDivider(length, overlap, cutSize):
     return ar2
 
 
-filePath = r"courtchanges20183.mp4"
+filePath = "ltV/tmp/courtchanges20183.mp4"
 videoOrig = VideoFileClip(filePath)
 
 videoLength = videoOrig.duration
+print(videoLength)
 
 colors = ["red", "green", "blue", "yellow", "purple", "orange"]
 shuffle(colors)
