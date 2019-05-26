@@ -17,6 +17,7 @@ def startup():
 def index():
     return render_template("index.html")
 
+
 @LegalTechFlask.route("/upload/", methods=["POST"])
 def upload_file():
 
@@ -38,14 +39,9 @@ def processing_file(vName):
     compClip = video.Overlay()
     video.Save(compClip)
     
-    # retrieve upload and call video processing
-    # add progress bar?
-    # when finished, redirect to download
-    # handle erros with try except
     return redirect(url_for("return_file", newVName=video.VideoModName))
 
 @LegalTechFlask.route("/download/<newVName>")
 def return_file(newVName):
 
     return send_from_directory(VideoDir, newVName, as_attachment=True)
-
