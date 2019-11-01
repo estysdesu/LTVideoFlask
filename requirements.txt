@@ -50,7 +50,7 @@ pbr==5.2.0
 pep8==1.7.1
 pexpect==4.7.0
 pickleshare==0.7.5
-Pillow==6.0.0
+Pillow==6.2.0
 ply==3.11
 proglog==0.1.9
 prometheus-client==0.6.0
@@ -140,7 +140,7 @@ pbr==5.2.0
 pep8==1.7.1
 pexpect==4.7.0
 pickleshare==0.7.5
-Pillow==6.0.0
+Pillow==6.2.0
 ply==3.11
 proglog==0.1.9
 prometheus-client==0.6.0
@@ -232,7 +232,7 @@ pbr==5.2.0
 pep8==1.7.1
 pexpect==4.7.0
 pickleshare==0.7.5
-Pillow==6.0.0
+Pillow==6.2.0
 ply==3.11
 proglog==0.1.9
 prometheus-client==0.6.0
